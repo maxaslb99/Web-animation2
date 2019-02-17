@@ -3,14 +3,9 @@
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 949 1080" style="enable-background:new 0 0 949 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#F20BF9;}
-	.st2{font-family:'KarminaBold';}
-	.st3{font-size:195.7255px;}
+	.st0{fill:#F20BF9;}
+	.st1{font-family:'KarminaBold';}
+	.st2{font-size:195.7255px;}
 </style>
-<g>
-	<rect x="0.5" y="0.5" width="948" height="1079"/>
-	<path class="st0" d="M948,1v1078H1V1H948 M949,0H0v1080h949V0L949,0z"/>
-</g>
-<text transform="matrix(1 0 0 1 615.9141 597.3125)" class="st1 st2 st3">mental casino</text>
+<text transform="matrix(1 0 0 1 615.9141 586.3125)" class="st0 st1 st2">mental </text>
 </svg>
