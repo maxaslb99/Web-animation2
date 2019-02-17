@@ -14,6 +14,8 @@
   font-family: 'Press Start 2P', cursive;
   font-weight: lighter;
   font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 7px;
   /*font-family: 'Shadows Into Light', cursive;*/
   /* font-family: 'Permanent Marker', cursive; */
 }
@@ -56,7 +58,7 @@ width: 33.3vw;
 height: 75vh;
 }
 
-.text {
+.start {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -65,7 +67,7 @@ height: 75vh;
   -webkit-transition: 5s;
 }
 
-.text:hover {
+.start:hover {
   position: absolute;
   overflow: hidden;
 }
@@ -84,12 +86,12 @@ height: 75vh;
   width: 50vw;
 }
 
-.text:hover .first-part{
-  margin:0 49vw;
+.start:hover .first-part{
+  margin:0 45vw;
 }
 
-.text:hover .second-part{
-  margin:0 49vw;
+.start:hover .second-part{
+  margin:0 45vw;
 }
 
 footer {
