@@ -1,0 +1,98 @@
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.marquee h1 {
+  color: yellow;
+  display: inline-block;
+  padding-left: 0;
+  animation:  marquee 30s linear infinite;
+  width: auto;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: lighter;
+  font-size: 20px;
+  /*font-family: 'Shadows Into Light', cursive;*/
+  /* font-family: 'Permanent Marker', cursive; */
+}
+
+@keyframes marquee {
+  50%   { transform: translate(-50%, 0); }
+  100% { transform: translate(0,0); }
+}
+
+.marquee:hover {
+background-color: red;
+}
+
+h1:hover {
+  color: pink;
+}
+body {
+  overflow: hidden;
+}
+.content {
+  display:flex;
+  flex-direction: row;
+}
+
+.first-column {
+  background-color : red;
+width: 33.3vw;
+height: 75vh;
+}
+
+.second-column {
+  background-color : black;
+width: 33.3vw;
+height: 75vh;
+}
+
+.third-column {
+background-color : white;
+width: 33.3vw;
+height: 75vh;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transition: 5s;
+}
+
+.text:hover {
+  position: absolute;
+  overflow: hidden;
+}
+
+.first-part{
+  background-color: purple;
+  transition: 5s;
+  -webkit-transition: 5s;
+  width: 50vw;
+}
+
+.second-part{
+  background-color: black;
+  transition: 5s;
+  -webkit-transition: 5s;
+  width: 50vw;
+}
+
+.text:hover .first-part{
+  margin:0 49vw;
+}
+
+.text:hover .second-part{
+  margin:0 49vw;
+}
+
+footer {
+  background-color: black;
+  height: 25vh;
+}
